@@ -52,7 +52,7 @@ export function About() {
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative h-[400px] flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-blue-900/90 to-blue-700/90 z-10" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#1C2541]/95 to-[#2a3a5f]/90 z-10" />
         <ImageWithFallback
           src="https://images.unsplash.com/photo-1758518730384-be3d205838e8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBoYW5kc2hha2UlMjBidXNpbmVzc3xlbnwxfHx8fDE3NzA4MDIyMjF8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
           alt="Professional partnership"
@@ -92,20 +92,20 @@ export function About() {
             </div>
 
             <div className="grid grid-cols-2 gap-8">
-              <div className="bg-blue-50 p-8 rounded-lg text-center">
-                <div className="text-4xl text-blue-600 mb-2">200+</div>
+              <div className="bg-[#e8eaf0] p-8 rounded-lg text-center">
+                <div className="text-4xl text-[#1C2541] mb-2">200+</div>
                 <div className="text-gray-700">Clients Served</div>
               </div>
-              <div className="bg-blue-50 p-8 rounded-lg text-center">
-                <div className="text-4xl text-blue-600 mb-2">9+</div>
+              <div className="bg-[#e8eaf0] p-8 rounded-lg text-center">
+                <div className="text-4xl text-[#1C2541] mb-2">9+</div>
                 <div className="text-gray-700">Years Experience</div>
               </div>
-              <div className="bg-blue-50 p-8 rounded-lg text-center">
-                <div className="text-4xl text-blue-600 mb-2">15+</div>
+              <div className="bg-[#e8eaf0] p-8 rounded-lg text-center">
+                <div className="text-4xl text-[#1C2541] mb-2">15+</div>
                 <div className="text-gray-700">Industries</div>
               </div>
-              <div className="bg-blue-50 p-8 rounded-lg text-center">
-                <div className="text-4xl text-blue-600 mb-2">95%</div>
+              <div className="bg-[#e8eaf0] p-8 rounded-lg text-center">
+                <div className="text-4xl text-[#1C2541] mb-2">95%</div>
                 <div className="text-gray-700">Client Retention</div>
               </div>
             </div>
@@ -128,8 +128,8 @@ export function About() {
               const Icon = value.icon;
               return (
                 <div key={index} className="bg-white p-8 rounded-lg shadow-md text-center">
-                  <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <Icon className="text-blue-600" size={28} />
+                  <div className="w-16 h-16 bg-[#e8eaf0] rounded-full flex items-center justify-center mx-auto mb-4">
+                    <Icon className="text-[#1C2541]" size={28} />
                   </div>
                   <h3 className="text-xl mb-3">{value.title}</h3>
                   <p className="text-gray-600">{value.description}</p>
@@ -153,10 +153,10 @@ export function About() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {team.map((member, index) => (
               <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow">
-                <div className="h-64 bg-gradient-to-br from-blue-400 to-blue-600" />
+                <div className="h-64 bg-gradient-to-br from-[#1C2541] to-[#2a3a5f]" />
                 <div className="p-6">
                   <h3 className="text-xl mb-1">{member.name}</h3>
-                  <div className="text-blue-600 mb-3">{member.role}</div>
+                  <div className="text-[#1C2541] mb-3">{member.role}</div>
                   <p className="text-gray-600 text-sm">{member.bio}</p>
                 </div>
               </div>
@@ -166,15 +166,15 @@ export function About() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-blue-600 text-white">
+      <section className="py-20 bg-[#1C2541] text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl mb-6">Join Our Success Stories</h2>
-          <p className="text-xl mb-8 text-blue-100">
+          <p className="text-xl mb-8 text-gray-200">
             Let's work together to achieve your business objectives
           </p>
           <a
             href="/contact"
-            className="inline-block bg-white text-blue-600 px-8 py-3 rounded-lg hover:bg-gray-100 transition-colors"
+            className="inline-block bg-white text-[#1C2541] px-8 py-3 rounded-lg hover:bg-gray-100 transition-colors"
           >
             Start a Conversation
           </a>

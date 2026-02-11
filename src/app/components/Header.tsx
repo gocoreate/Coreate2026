@@ -15,16 +15,16 @@ export function Header() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8">
-            <Link to="/" className="text-gray-700 hover:text-blue-600 transition-colors">
+            <Link to="/" className="text-gray-700 hover:text-[#1C2541] transition-colors">
               Home
             </Link>
-            <Link to="/services" className="text-gray-700 hover:text-blue-600 transition-colors">
+            <Link to="/services" className="text-gray-700 hover:text-[#1C2541] transition-colors">
               Services
             </Link>
-            <Link to="/about" className="text-gray-700 hover:text-blue-600 transition-colors">
+            <Link to="/about" className="text-gray-700 hover:text-[#1C2541] transition-colors">
               About
             </Link>
-            <Link to="/contact" className="text-gray-700 hover:text-blue-600 transition-colors">
+            <Link to="/contact" className="text-gray-700 hover:text-[#1C2541] transition-colors">
               Contact
             </Link>
           </div>
@@ -32,7 +32,7 @@ export function Header() {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="md:hidden p-2 rounded-md text-gray-700 hover:text-blue-600 hover:bg-gray-100"
+            className="md:hidden p-2 rounded-md text-gray-700 hover:text-[#1C2541] hover:bg-gray-100"
           >
             {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
@@ -43,28 +43,28 @@ export function Header() {
           <div className="md:hidden py-4 space-y-2">
             <Link
               to="/"
-              className="block px-3 py-2 text-gray-700 hover:text-blue-600 hover:bg-gray-50 rounded-md"
+              className="block px-3 py-2 text-gray-700 hover:text-[#1C2541] hover:bg-gray-50 rounded-md"
               onClick={() => setIsMenuOpen(false)}
             >
               Home
             </Link>
             <Link
               to="/services"
-              className="block px-3 py-2 text-gray-700 hover:text-blue-600 hover:bg-gray-50 rounded-md"
+              className="block px-3 py-2 text-gray-700 hover:text-[#1C2541] hover:bg-gray-50 rounded-md"
               onClick={() => setIsMenuOpen(false)}
             >
               Services
             </Link>
             <Link
               to="/about"
-              className="block px-3 py-2 text-gray-700 hover:text-blue-600 hover:bg-gray-50 rounded-md"
+              className="block px-3 py-2 text-gray-700 hover:text-[#1C2541] hover:bg-gray-50 rounded-md"
               onClick={() => setIsMenuOpen(false)}
             >
               About
             </Link>
             <Link
               to="/contact"
-              className="block px-3 py-2 text-gray-700 hover:text-blue-600 hover:bg-gray-50 rounded-md"
+              className="block px-3 py-2 text-gray-700 hover:text-[#1C2541] hover:bg-gray-50 rounded-md"
               onClick={() => setIsMenuOpen(false)}
             >
               Contact

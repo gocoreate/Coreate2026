@@ -97,7 +97,7 @@ export function Services() {
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative h-[400px] flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-blue-900/90 to-blue-700/90 z-10" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#1C2541]/95 to-[#2a3a5f]/90 z-10" />
         <ImageWithFallback
           src="https://images.unsplash.com/photo-1758876202468-5ffe0ee61f07?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdHJhdGVneSUyMHBsYW5uaW5nJTIwYm9hcmR8ZW58MXx8fHwxNzcwODA1MDIwfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
           alt="Strategy planning"
@@ -130,8 +130,8 @@ export function Services() {
                   className="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition-all border border-gray-100"
                 >
                   <div className="flex items-start gap-4">
-                    <div className="flex-shrink-0 w-14 h-14 bg-blue-100 rounded-lg flex items-center justify-center">
-                      <Icon className="text-blue-600" size={28} />
+                    <div className="flex-shrink-0 w-14 h-14 bg-[#e8eaf0] rounded-lg flex items-center justify-center">
+                      <Icon className="text-[#1C2541]" size={28} />
                     </div>
                     <div className="flex-1">
                       <h3 className="text-2xl mb-3">{service.title}</h3>
@@ -139,7 +139,7 @@ export function Services() {
                       <ul className="space-y-2">
                         {service.features.map((feature, idx) => (
                           <li key={idx} className="flex items-start gap-2 text-gray-700">
-                            <span className="text-blue-600 mt-1">•</span>
+                            <span className="text-[#1C2541] mt-1">•</span>
                             <span>{feature}</span>
                           </li>
                         ))}
@@ -165,7 +165,7 @@ export function Services() {
 
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center text-2xl mx-auto mb-4">
+              <div className="w-16 h-16 bg-[#1C2541] text-white rounded-full flex items-center justify-center text-2xl mx-auto mb-4">
                 1
               </div>
               <h3 className="text-xl mb-2">Discovery</h3>
@@ -175,7 +175,7 @@ export function Services() {
             </div>
 
             <div className="text-center">
-              <div className="w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center text-2xl mx-auto mb-4">
+              <div className="w-16 h-16 bg-[#1C2541] text-white rounded-full flex items-center justify-center text-2xl mx-auto mb-4">
                 2
               </div>
               <h3 className="text-xl mb-2">Analysis</h3>
@@ -185,7 +185,7 @@ export function Services() {
             </div>
 
             <div className="text-center">
-              <div className="w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center text-2xl mx-auto mb-4">
+              <div className="w-16 h-16 bg-[#1C2541] text-white rounded-full flex items-center justify-center text-2xl mx-auto mb-4">
                 3
               </div>
               <h3 className="text-xl mb-2">Strategy</h3>
@@ -195,7 +195,7 @@ export function Services() {
             </div>
 
             <div className="text-center">
-              <div className="w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center text-2xl mx-auto mb-4">
+              <div className="w-16 h-16 bg-[#1C2541] text-white rounded-full flex items-center justify-center text-2xl mx-auto mb-4">
                 4
               </div>
               <h3 className="text-xl mb-2">Implementation</h3>
@@ -208,15 +208,15 @@ export function Services() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-blue-600 text-white">
+      <section className="py-20 bg-[#1C2541] text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl mb-6">Let's Discuss Your Needs</h2>
-          <p className="text-xl mb-8 text-blue-100">
+          <p className="text-xl mb-8 text-gray-200">
             Every business is unique. Contact us to learn how we can help you achieve your goals.
           </p>
           <a
             href="/contact"
-            className="inline-block bg-white text-blue-600 px-8 py-3 rounded-lg hover:bg-gray-100 transition-colors"
+            className="inline-block bg-white text-[#1C2541] px-8 py-3 rounded-lg hover:bg-gray-100 transition-colors"
           >
             Get Started
           </a>

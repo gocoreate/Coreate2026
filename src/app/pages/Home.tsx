@@ -7,7 +7,7 @@ export function Home() {
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative h-[600px] flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-blue-900/90 to-blue-600/90 z-10" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#1C2541]/95 to-[#2a3a5f]/90 z-10" />
         <ImageWithFallback
           src="https://images.unsplash.com/photo-1758518729908-d4220a678d81?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMGNvbnN1bHRpbmclMjB0ZWFtJTIwbWVldGluZ3xlbnwxfHx8fDE3NzA2OTk4MjB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
           alt="Consulting team meeting"
@@ -23,7 +23,7 @@ export function Home() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               to="/services"
-              className="inline-flex items-center justify-center gap-2 bg-white text-blue-600 px-8 py-3 rounded-lg hover:bg-gray-100 transition-colors"
+              className="inline-flex items-center justify-center gap-2 bg-white text-[#1C2541] px-8 py-3 rounded-lg hover:bg-gray-100 transition-colors"
             >
               Our Services
               <ArrowRight size={20} />
@@ -50,8 +50,8 @@ export function Home() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow">
-              <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
-                <TrendingUp className="text-blue-600" size={24} />
+              <div className="w-12 h-12 bg-[#e8eaf0] rounded-lg flex items-center justify-center mb-4">
+                <TrendingUp className="text-[#1C2541]" size={24} />
               </div>
               <h3 className="text-xl mb-3">Business Strategy</h3>
               <p className="text-gray-600">
@@ -60,8 +60,8 @@ export function Home() {
             </div>
 
             <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow">
-              <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
-                <BarChart className="text-blue-600" size={24} />
+              <div className="w-12 h-12 bg-[#e8eaf0] rounded-lg flex items-center justify-center mb-4">
+                <BarChart className="text-[#1C2541]" size={24} />
               </div>
               <h3 className="text-xl mb-3">Performance Analytics</h3>
               <p className="text-gray-600">
@@ -70,8 +70,8 @@ export function Home() {
             </div>
 
             <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow">
-              <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
-                <Users className="text-blue-600" size={24} />
+              <div className="w-12 h-12 bg-[#e8eaf0] rounded-lg flex items-center justify-center mb-4">
+                <Users className="text-[#1C2541]" size={24} />
               </div>
               <h3 className="text-xl mb-3">Change Management</h3>
               <p className="text-gray-600">
@@ -80,8 +80,8 @@ export function Home() {
             </div>
 
             <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow">
-              <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
-                <Target className="text-blue-600" size={24} />
+              <div className="w-12 h-12 bg-[#e8eaf0] rounded-lg flex items-center justify-center mb-4">
+                <Target className="text-[#1C2541]" size={24} />
               </div>
               <h3 className="text-xl mb-3">Market Research</h3>
               <p className="text-gray-600">
@@ -93,7 +93,7 @@ export function Home() {
           <div className="text-center mt-12">
             <Link
               to="/services"
-              className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-700"
+              className="inline-flex items-center gap-2 text-[#1C2541] hover:text-[#141b31]"
             >
               View All Services
               <ArrowRight size={20} />
@@ -115,7 +115,7 @@ export function Home() {
               
               <div className="space-y-6">
                 <div className="flex gap-4">
-                  <div className="flex-shrink-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center">
+                  <div className="flex-shrink-0 w-8 h-8 bg-[#1C2541] text-white rounded-full flex items-center justify-center">
                     ✓
                   </div>
                   <div>
@@ -127,7 +127,7 @@ export function Home() {
                 </div>
 
                 <div className="flex gap-4">
-                  <div className="flex-shrink-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center">
+                  <div className="flex-shrink-0 w-8 h-8 bg-[#1C2541] text-white rounded-full flex items-center justify-center">
                     ✓
                   </div>
                   <div>
@@ -139,7 +139,7 @@ export function Home() {
                 </div>
 
                 <div className="flex gap-4">
-                  <div className="flex-shrink-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center">
+                  <div className="flex-shrink-0 w-8 h-8 bg-[#1C2541] text-white rounded-full flex items-center justify-center">
                     ✓
                   </div>
                   <div>
@@ -153,7 +153,7 @@ export function Home() {
 
               <Link
                 to="/about"
-                className="inline-flex items-center gap-2 mt-8 text-blue-600 hover:text-blue-700"
+                className="inline-flex items-center gap-2 mt-8 text-[#1C2541] hover:text-[#141b31]"
               >
                 Learn More About Us
                 <ArrowRight size={20} />
@@ -172,15 +172,15 @@ export function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-blue-600 text-white">
+      <section className="py-20 bg-[#1C2541] text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl mb-6">Ready to Transform Your Business?</h2>
-          <p className="text-xl mb-8 text-blue-100">
+          <p className="text-xl mb-8 text-gray-200">
             Let's discuss how we can help you achieve your goals
           </p>
           <Link
             to="/contact"
-            className="inline-flex items-center gap-2 bg-white text-blue-600 px-8 py-3 rounded-lg hover:bg-gray-100 transition-colors"
+            className="inline-flex items-center gap-2 bg-white text-[#1C2541] px-8 py-3 rounded-lg hover:bg-gray-100 transition-colors"
           >
             Schedule a Consultation
             <ArrowRight size={20} />

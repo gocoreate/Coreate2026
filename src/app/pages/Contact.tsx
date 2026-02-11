@@ -41,7 +41,7 @@ export function Contact() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-20">
+      <section className="bg-gradient-to-r from-[#1C2541] to-[#2a3a5f] text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-5xl md:text-6xl mb-6">Get in Touch</h1>
           <p className="text-xl text-gray-100 max-w-2xl mx-auto">
@@ -64,8 +64,8 @@ export function Contact() {
 
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
-                    <Mail className="text-blue-600" size={24} />
+                  <div className="flex-shrink-0 w-12 h-12 bg-[#e8eaf0] rounded-lg flex items-center justify-center">
+                    <Mail className="text-[#1C2541]" size={24} />
                   </div>
                   <div>
                     <h3 className="text-lg mb-1">Email</h3>
@@ -75,8 +75,8 @@ export function Contact() {
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
-                    <Phone className="text-blue-600" size={24} />
+                  <div className="flex-shrink-0 w-12 h-12 bg-[#e8eaf0] rounded-lg flex items-center justify-center">
+                    <Phone className="text-[#1C2541]" size={24} />
                   </div>
                   <div>
                     <h3 className="text-lg mb-1">Phone</h3>
@@ -86,8 +86,8 @@ export function Contact() {
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
-                    <MapPin className="text-blue-600" size={24} />
+                  <div className="flex-shrink-0 w-12 h-12 bg-[#e8eaf0] rounded-lg flex items-center justify-center">
+                    <MapPin className="text-[#1C2541]" size={24} />
                   </div>
                   <div>
                     <h3 className="text-lg mb-1">Office</h3>
@@ -97,7 +97,7 @@ export function Contact() {
                 </div>
               </div>
 
-              <div className="mt-8 p-6 bg-blue-50 rounded-lg">
+              <div className="mt-8 p-6 bg-[#e8eaf0] rounded-lg">
                 <h3 className="text-lg mb-2">Office Hours</h3>
                 <p className="text-gray-700">Monday - Friday: 9:00 AM - 6:00 PM EST</p>
                 <p className="text-gray-700">Saturday - Sunday: Closed</p>
@@ -129,7 +129,7 @@ export function Contact() {
                       required
                       value={formData.name}
                       onChange={handleChange}
-                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none"
+                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1C2541] focus:border-transparent outline-none"
                     />
                   </div>
 
@@ -144,7 +144,7 @@ export function Contact() {
                       required
                       value={formData.email}
                       onChange={handleChange}
-                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none"
+                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1C2541] focus:border-transparent outline-none"
                     />
                   </div>
 
@@ -159,7 +159,7 @@ export function Contact() {
                         name="company"
                         value={formData.company}
                         onChange={handleChange}
-                        className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none"
+                        className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1C2541] focus:border-transparent outline-none"
                       />
                     </div>
 
@@ -173,7 +173,7 @@ export function Contact() {
                         name="phone"
                         value={formData.phone}
                         onChange={handleChange}
-                        className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none"
+                        className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1C2541] focus:border-transparent outline-none"
                       />
                     </div>
                   </div>
@@ -187,7 +187,7 @@ export function Contact() {
                       name="service"
                       value={formData.service}
                       onChange={handleChange}
-                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none"
+                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1C2541] focus:border-transparent outline-none"
                     >
                       <option value="">Select a service...</option>
                       <option value="strategy">Business Strategy</option>
@@ -212,13 +212,13 @@ export function Contact() {
                       rows={5}
                       value={formData.message}
                       onChange={handleChange}
-                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none resize-none"
+                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1C2541] focus:border-transparent outline-none resize-none"
                     />
                   </div>
 
                   <button
                     type="submit"
-                    className="w-full bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors flex items-center justify-center gap-2"
+                    className="w-full bg-[#1C2541] text-white px-6 py-3 rounded-lg hover:bg-[#141b31] transition-colors flex items-center justify-center gap-2"
                   >
                     Send Message
                     <Send size={20} />
