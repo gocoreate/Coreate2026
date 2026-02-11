@@ -14,12 +14,10 @@ export function Home() {
           className="absolute inset-0 w-full h-full object-cover"
         />
         <div className="relative z-20 text-center text-white max-w-4xl mx-auto px-4">
-          <h1 className="text-5xl md:text-6xl mb-6">
-            Strategic Solutions for Business Growth
+          <h1 className="text-5xl md:text-6xl mb-6" style={{ fontFamily: 'Merriweather, serif' }}>
+            We Create Human-Centered Solutions that Empower Organizations and Communities.
           </h1>
-          <p className="text-xl md:text-2xl mb-8 text-gray-100">
-            Transform your vision into reality with expert consulting services tailored to your needs
-          </p>
+          <p className="text-xl md:text-2xl mb-8 text-gray-100">At CoReate, we redefine what work means by putting people and communities at the center of everything we do.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               to="/services"
