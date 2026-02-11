@@ -1,7 +1,7 @@
 
-  # Consulting Firm Website
+  # CoReate Website
 
-  This is a code bundle for Consulting Firm Website. The original project is available at https://www.figma.com/design/QBZsdjkRxrLRywCrMgA6qE/Consulting-Firm-Website.
+  This is a code bundle for CoReate Website. The original project is available at https://www.figma.com/design/QBZsdjkRxrLRywCrMgA6qE/CoReate-Website.
 
   ## Running the code
 

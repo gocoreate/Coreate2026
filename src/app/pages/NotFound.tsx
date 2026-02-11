@@ -5,7 +5,9 @@ export function NotFound() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50">
       <div className="text-center px-4">
-        <h1 className="text-9xl text-[#1C2541] mb-4">404</h1>
+        <h1 className="text-9xl text-[#1C2541] mb-4" style={{ fontFamily: 'Roboto Mono, monospace' }}>
+          404
+        </h1>
         <h2 className="text-4xl mb-4">Page Not Found</h2>
         <p className="text-xl text-gray-600 mb-8 max-w-md">
           Sorry, the page you're looking for doesn't exist or has been moved.

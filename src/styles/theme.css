@@ -42,6 +42,10 @@
   --brand: #1C2541;
   --brand-light: #e8eaf0;
   --brand-dark: #141b31;
+  --font-heading: 'Merriweather', serif;
+  --font-accent: 'Comfortaa', cursive;
+  --font-mono: 'Roboto Mono', monospace;
+  --font-body: 'Nunito', sans-serif;
 }
 
 .dark {
@@ -132,6 +136,7 @@
 
   body {
     @apply bg-background text-foreground;
+    font-family: var(--font-body);
   }
 
   /**
@@ -143,7 +148,8 @@
     font-size: var(--font-size);
   }
 
-  h1 {
+  h1, h2 {
+    font-family: var(--font-heading);
     font-size: var(--text-2xl);
     font-weight: var(--font-weight-medium);
     line-height: 1.5;
@@ -151,11 +157,10 @@
 
   h2 {
     font-size: var(--text-xl);
-    font-weight: var(--font-weight-medium);
-    line-height: 1.5;
   }
 
-  h3 {
+  h3, h4 {
+    font-family: var(--font-body);
     font-size: var(--text-lg);
     font-weight: var(--font-weight-medium);
     line-height: 1.5;
@@ -163,23 +168,28 @@
 
   h4 {
     font-size: var(--text-base);
-    font-weight: var(--font-weight-medium);
-    line-height: 1.5;
+  }
+
+  p {
+    font-family: var(--font-body);
   }
 
   label {
+    font-family: var(--font-body);
     font-size: var(--text-base);
     font-weight: var(--font-weight-medium);
     line-height: 1.5;
   }
 
   button {
+    font-family: var(--font-body);
     font-size: var(--text-base);
     font-weight: var(--font-weight-medium);
     line-height: 1.5;
   }
 
-  input {
+  input, textarea, select {
+    font-family: var(--font-body);
     font-size: var(--text-base);
     font-weight: var(--font-weight-normal);
     line-height: 1.5;

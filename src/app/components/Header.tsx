@@ -7,10 +7,13 @@ export function Header() {
 
   return (
     <header className="bg-white shadow-sm sticky top-0 z-50">
-      <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <Link to="/" className="text-xl font-semibold text-gray-900">
-            Apex Consulting
+          {/* Logo */}
+          <Link to="/" className="flex items-center">
+            <span className="text-2xl text-[#1C2541]" style={{ fontFamily: 'Comfortaa, cursive' }}>
+              CoReate
+            </span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -71,7 +74,7 @@ export function Header() {
             </Link>
           </div>
         )}
-      </nav>
+      </div>
     </header>
   );
 }

@@ -165,7 +165,7 @@ export function Services() {
 
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="w-16 h-16 bg-[#1C2541] text-white rounded-full flex items-center justify-center text-2xl mx-auto mb-4">
+              <div className="w-16 h-16 bg-[#1C2541] text-white rounded-full flex items-center justify-center text-2xl mx-auto mb-4" style={{ fontFamily: 'Roboto Mono, monospace' }}>
                 1
               </div>
               <h3 className="text-xl mb-2">Discovery</h3>
@@ -175,7 +175,7 @@ export function Services() {
             </div>
 
             <div className="text-center">
-              <div className="w-16 h-16 bg-[#1C2541] text-white rounded-full flex items-center justify-center text-2xl mx-auto mb-4">
+              <div className="w-16 h-16 bg-[#1C2541] text-white rounded-full flex items-center justify-center text-2xl mx-auto mb-4" style={{ fontFamily: 'Roboto Mono, monospace' }}>
                 2
               </div>
               <h3 className="text-xl mb-2">Analysis</h3>
@@ -185,7 +185,7 @@ export function Services() {
             </div>
 
             <div className="text-center">
-              <div className="w-16 h-16 bg-[#1C2541] text-white rounded-full flex items-center justify-center text-2xl mx-auto mb-4">
+              <div className="w-16 h-16 bg-[#1C2541] text-white rounded-full flex items-center justify-center text-2xl mx-auto mb-4" style={{ fontFamily: 'Roboto Mono, monospace' }}>
                 3
               </div>
               <h3 className="text-xl mb-2">Strategy</h3>
@@ -195,7 +195,7 @@ export function Services() {
             </div>
 
             <div className="text-center">
-              <div className="w-16 h-16 bg-[#1C2541] text-white rounded-full flex items-center justify-center text-2xl mx-auto mb-4">
+              <div className="w-16 h-16 bg-[#1C2541] text-white rounded-full flex items-center justify-center text-2xl mx-auto mb-4" style={{ fontFamily: 'Roboto Mono, monospace' }}>
                 4
               </div>
               <h3 className="text-xl mb-2">Implementation</h3>

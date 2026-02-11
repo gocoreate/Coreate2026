@@ -74,7 +74,7 @@ export function About() {
               <h2 className="text-4xl mb-6">Our Story</h2>
               <div className="space-y-4 text-gray-600 text-lg">
                 <p>
-                  Founded in 2015, Apex Consulting emerged from a simple belief: that every business, 
+                  Founded in 2015, CoReate emerged from a simple belief: that every business, 
                   regardless of size, deserves access to world-class strategic guidance.
                 </p>
                 <p>
@@ -93,19 +93,27 @@ export function About() {
 
             <div className="grid grid-cols-2 gap-8">
               <div className="bg-[#e8eaf0] p-8 rounded-lg text-center">
-                <div className="text-4xl text-[#1C2541] mb-2">200+</div>
+                <div className="text-4xl text-[#1C2541] mb-2" style={{ fontFamily: 'Roboto Mono, monospace' }}>
+                  200+
+                </div>
                 <div className="text-gray-700">Clients Served</div>
               </div>
               <div className="bg-[#e8eaf0] p-8 rounded-lg text-center">
-                <div className="text-4xl text-[#1C2541] mb-2">9+</div>
+                <div className="text-4xl text-[#1C2541] mb-2" style={{ fontFamily: 'Roboto Mono, monospace' }}>
+                  9+
+                </div>
                 <div className="text-gray-700">Years Experience</div>
               </div>
               <div className="bg-[#e8eaf0] p-8 rounded-lg text-center">
-                <div className="text-4xl text-[#1C2541] mb-2">15+</div>
+                <div className="text-4xl text-[#1C2541] mb-2" style={{ fontFamily: 'Roboto Mono, monospace' }}>
+                  15+
+                </div>
                 <div className="text-gray-700">Industries</div>
               </div>
               <div className="bg-[#e8eaf0] p-8 rounded-lg text-center">
-                <div className="text-4xl text-[#1C2541] mb-2">95%</div>
+                <div className="text-4xl text-[#1C2541] mb-2" style={{ fontFamily: 'Roboto Mono, monospace' }}>
+                  95%
+                </div>
                 <div className="text-gray-700">Client Retention</div>
               </div>
             </div>

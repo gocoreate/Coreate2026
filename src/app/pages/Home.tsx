@@ -107,7 +107,7 @@ export function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-4xl mb-6">Why Choose Apex Consulting?</h2>
+              <h2 className="text-4xl mb-6">Why Choose CoReate?</h2>
               <p className="text-lg text-gray-600 mb-8">
                 With over a decade of experience helping businesses transform and grow, 
                 we bring expertise, dedication, and proven results to every engagement.

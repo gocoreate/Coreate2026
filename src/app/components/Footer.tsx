@@ -6,7 +6,9 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-white text-lg mb-4">Apex Consulting</h3>
+            <h3 className="text-white text-lg mb-4" style={{ fontFamily: 'Comfortaa, cursive' }}>
+              CoReate
+            </h3>
             <p className="text-sm">
               Empowering businesses with strategic insights and innovative solutions since 2015.
             </p>
@@ -27,7 +29,7 @@ export function Footer() {
             <ul className="space-y-3 text-sm">
               <li className="flex items-center gap-2">
                 <Mail size={16} />
-                <span>info@apexconsulting.com</span>
+                <span>info@coreate.com</span>
               </li>
               <li className="flex items-center gap-2">
                 <Phone size={16} />
@@ -42,7 +44,7 @@ export function Footer() {
         </div>
         
         <div className="border-t border-gray-800 mt-8 pt-8 text-sm text-center">
-          <p>&copy; {new Date().getFullYear()} Apex Consulting. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} CoReate. All rights reserved.</p>
         </div>
       </div>
     </footer>
